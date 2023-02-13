@@ -27,7 +27,7 @@ const appRoutes: Routes = [
 })*/
 @NgModule ({
    imports: [ BrowserModule,
-   RouterModule.forRoot(appRoutes), FormsModule, useHash: true],   //RouterModule.forRoot adds the routes to the application.
+   RouterModule.forRoot(appRoutes), FormsModule],   //RouterModule.forRoot adds the routes to the application.
    declarations: [ AppComponent,AppFile1,AppFile2,AppFile3,AppFile4,AppFile5],
    bootstrap: [ AppComponent ]
 })
